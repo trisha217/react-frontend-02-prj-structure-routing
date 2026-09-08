@@ -1,5 +1,5 @@
 import React from 'react';
-import UsersList from '../components/UsersList';
+import UsersList from '../components/UsersList';  // path relative to Users.js
 
 
 const Users = () => {
@@ -8,13 +8,13 @@ const Users = () => {
     {
       id: 'u1',
       name: 'Max',
-      image: "image.jpg",
+      image: "image1.jpg",
       places: 3
     },
     {
       id: 'u2',
       name: 'Mike',
-      image: "image.jpg",
+      image: "image2.jpg",
       places: 5
     }
   ]
